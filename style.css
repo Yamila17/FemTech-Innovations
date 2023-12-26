@@ -1,3 +1,14 @@
 * {
     font-family: 'Roboto Mono', monospace;
 }
+.navbarColor{
+    background-color: #729800;
+}
+button{
+    background-color: black;
+    border-color: black;
+}
+
+.customFooter{
+    background-color: #729800;
+}
