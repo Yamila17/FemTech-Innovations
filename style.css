@@ -37,5 +37,8 @@ button{
     transition: transform 0.3s ease;
 }
 .contenedor-imagen:hover .texto-desplegable {
-            transform: translateY(0);
-        }
+    transform: translateY(0);
+}
+.sectionReview{
+    margin-top: 50px;
+}
