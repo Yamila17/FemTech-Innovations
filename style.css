@@ -8,7 +8,9 @@ button{
     background-color: black;
     border-color: black;
 }
-
+.dropdown{
+     border-radius: 15%;
+}
 .customFooter{
     background-color: #729800;
 }
