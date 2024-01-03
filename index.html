@@ -17,11 +17,15 @@
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbarColor">
-        <div class="container-fluid">
+        <div class="container">
             <img src="/img/greenmobile.png" width="54px" height="94px">
             <div class="badge fs-3 text-dark text-wrap" style="width: 10rem;" id="marca">
                 <h2><strong>FemTech Innovation</strong></h2>
             </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
             <!--Agregado otro tipo de botones-->
             <p class="d-inline-flex gap-1"></p>
             <button type="button" class="btn active btn-outline-light fs-5" data-bs-toggle="button"
@@ -41,12 +45,18 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button type="button" class="btn btn-dark">Search</button>
             </form>
+            <div class="d-flex justify-content-between">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                    <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                  </svg>
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                  </svg>
+            </div>
         </div>
-        <div class="d-flex justify-content-between">
-            <img src="/img/usuario (1).png">
-            <i class="bi bi-0-circle"></i>
-            <img src="/img/bolsa-de-la-compra.png" width="39px" height="40px">
-        </div>
+    </div>
     </nav>
     <!--Slogan-->
     <div class="container text-center mt-5">
