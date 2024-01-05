@@ -59,6 +59,7 @@ button{
 
 #buttonContact{
     border-radius: 1px solid #729800;
+    border-color: #729800
 }
 
 #buttonContact:hover{
@@ -66,7 +67,4 @@ button{
     color: #fff;
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.icons{
-    background-color: #729800;
 }
