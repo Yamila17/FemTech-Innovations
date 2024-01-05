@@ -74,19 +74,3 @@ body {
     border-radius: 10px;
     padding: 10px;
 }
-
-.card-body {
-    background-color: rgba(255, 255, 255, 0); /* Ajusta el último valor (0.9) para cambiar la opacidad del formulario */
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.form-control,
-.form-check-input,
-.form-check-label,
-.form-floating textarea,
-.btn {
-    background-color: rgba(255, 255, 255, 0.8); /* Ajusta el último valor (0.8) para cambiar la opacidad de los elementos del formulario */
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Agrega un borde para mejorar la visibilidad */
-    margin-bottom: 10px;
-}
