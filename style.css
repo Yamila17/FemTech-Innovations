@@ -68,3 +68,8 @@ button{
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.containerContactUs{
+    height: 150px;
+    width: 100px;
+    align-items: center;
+}
