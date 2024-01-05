@@ -60,7 +60,6 @@ button{
 #buttonContact{
     background-color: #729800;
     color: #fff;
-    border-radius: 1px solid #729800;
 }
 
 body {
@@ -87,3 +86,15 @@ body {
 .checkBox{
     accent-color: #729800;
 }
+input.form-control:focus{
+    border-color: #739900;
+    box-shadow: 0 0 0 0.25rem rgba(18, 82, 27, 0.25);
+}
+.form-floating textarea.form-control{
+    height: 100px;
+}
+.form-floating textarea.form-control:focus {
+    border-color: #739900;
+    box-shadow: 0 0 0 0.25rem rgba(18, 82, 27, 0.25);
+}
+
