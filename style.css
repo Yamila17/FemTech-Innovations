@@ -4,6 +4,9 @@
 .navbarColor{
     background-color: #739900;
 }
+.navbarColor:in-range{
+    max-width: 300px;
+}
 button{
     background-color: black;
     border-color: black;
